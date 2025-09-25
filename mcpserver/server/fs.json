@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "uv",
+      "args": [
+        "run",
+        "server/fs_server.py"
+      ],
+      "cwd": "/home/keerthichavlavandana/mcp2/mcpserver",
+      "env": {
+        "FS_ROOT": "/home/keerthichavlavandana"
+      }
+    }
+  }
+}
